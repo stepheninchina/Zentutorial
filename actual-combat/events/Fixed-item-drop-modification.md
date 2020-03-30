@@ -12,7 +12,7 @@ import crafttweaker.item.WeightedItemStack;
 events.onBlockHarvestDrops(
         function(event as BlockHarvestDropsEvent) {
 	    var blockID as string = event.block.definition.id;
-        val meta as int = event.block.meta;
+            val meta as int = event.block.meta;
 		// 定义方块数据      方块的id和meta值
 	    if(event.silkTouch) return;
 		// 排除精准采集
